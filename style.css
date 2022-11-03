@@ -15,14 +15,14 @@ body {
     outline: none;
     font-family: inherit;
 }
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     .svyaz {
         display: block;
         text-align: center;
     }
 }
 .conteyner {
-    max-width: 750px;
+    max-width: 1000px;
     margin: auto;
 }
 .img .foto {
