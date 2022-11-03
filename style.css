@@ -1,0 +1,198 @@
+
+body {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    background: #2f3137;
+    color: #ddd;
+        
+}
+
+
+.svyaz {
+    display: flex;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.conteyner {
+    max-width: 750px;
+    margin: auto;
+}
+.img .foto {
+
+    border-radius: 20%;  /* Скругление углов изображения */
+   
+    
+}
+.img {
+    background: #2f3137;
+    margin-top: 50px;
+}
+.info-text{
+    margin-left: 10px;  
+}
+.info-text p {
+    border-left: 5px solid red;
+    background: salmon;
+    padding-left: 10px;
+    color: #111 ;
+    border-bottom-right-radius: 10%;
+    
+}
+ 
+@media (max-width: 700px) {
+    .svyaz {
+        display: block;
+        text-align: center;
+    }
+}
+
+p {
+    font-style:italic;
+    letter-spacing: 2px;
+}
+
+#text2 {
+    font-weight: bold;
+        
+}
+
+#email2 {
+    font-weight: bold;
+}
+
+#message {
+    font-weight: bolder;
+}
+
+.btn {
+    width: 200px ;
+    height: 50px;
+    background: #479e74;
+    color: black;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-size: 20px;
+    letter-spacing: 3px;
+    border-radius: 40px;
+    outline: none;
+    transition: 0,1s;
+}
+.btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 7px 0 #356d52;
+    color: rgba(250, 250, 250, 0.953);
+}
+
+.btn:active {
+    transform: translateY(-2px);
+    box-shadow: 0 3px 0 #356d52;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    color: orange;     /* при приведении мыши на ссылку то меняется все */
+    /* transition: all .2s;   плавность анимации  */
+}
+
+/* a:visited {
+    color: blueviolet;
+}  */
+a:active{
+    color: red; /* при нажатии цвет меняется */
+}
+
+
+.table {
+
+    width: 100%;
+    color: #111;
+}
+.table td {
+    text-align: center;   /* выравнивание по центру*/
+    padding-bottom: 10px;
+}
+
+.table td:hover {
+    background: lightcyan;
+}
+
+.table tr:nth-child(odd), .table tr:nth-child(even) {   /* even-каждая четнаястрочка, odd-нечетная строчка */
+    background: grey;
+}
+
+.list {
+    background: rgba(56, 56, 56, 0.953);
+    color: #111;
+    padding: 10px 20px ;
+    margin-bottom: 10px;
+}
+.list h2 {
+    color: wheat;
+    padding: 5px;
+    background: green;
+    width: 180px;
+    border:1px solid #111;
+    border-radius: 50px;
+}
+.list ol {
+    color: #1da5ca;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+}
+
+/* .form-row .form-group:last-child {
+    margin-right: 0;
+} */
+
+@media(max-width: 700px) {
+    .form-row {
+        display: block;
+    }
+    .form-row .form-group {
+        width: 100%;
+        margin-right:0;
+        margin-bottom: 10px;
+    }
+}
+
+.form-group label {
+    display: block;
+    font-size: 18px;
+    color: rgb(218, 197, 197);
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;   /* обозначет что будет прозрачным */
+    border-bottom: 1px solid blanchedalmond;
+    color: rgb(203, 137, 15);
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
